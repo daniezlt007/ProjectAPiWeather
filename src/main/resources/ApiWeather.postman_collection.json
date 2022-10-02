@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "e58aa0e8-3fb9-4c09-b5a2-2a2c34b1fe4f",
+		"name": "ApiWeather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "consultaTemperaturaApiCidade",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/cidade/marituba/uf/pa",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"cidade",
+						"marituba",
+						"uf",
+						"pa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consultaHistoricoTemperaturaPorCidade",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/historico/cidade/Blumenau",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"historico",
+						"cidade",
+						"Blumenau"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consultaHistoricoTemperaturaPorUF",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/historico/uf/SC",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"historico",
+						"uf",
+						"SC"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
